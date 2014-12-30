@@ -30,7 +30,7 @@ angular.module('angular-bootstrap-slider-test', ['ui.bootstrap-slider'])
 
 
         $scope.sliders.thirdSliderValue = 0;
-        $scope.myFormater = function(value) {
+        $scope.myFormatter = function(value) {
             return value + "%";
         };
 
